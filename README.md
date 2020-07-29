@@ -1,1 +1,2 @@
-# python
+# README
+just learn the code
