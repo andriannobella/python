@@ -1,3 +1,4 @@
+from geometri.bangunruang import BangunRuang
 from geometri.persegipanjang import PersegiPanjang
 from geometri.segitiga import Segitiga
 
@@ -12,3 +13,8 @@ print('\n')
 s1 = Segitiga(4, 2)
 print(s1.info())
 print(s1.hitung_luas())
+
+print('\nMencoba membuat objek dari kelas BangunRuang')
+b1 = BangunRuang()
+print(b1.info())
+print(b1.hitung_luas())
